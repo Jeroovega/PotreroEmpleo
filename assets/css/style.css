@@ -1408,6 +1408,43 @@ section {
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
+  flex-wrap: wrap;
+}
+
+#footer .footer-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .iniciativa {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+#footer .iniciativa span {
+  text-align: left;
+  margin-left: 15px;
+}
+
+#footer .iniciativa img {
+  width: 300px;
+}
+
+#footer .compromiso {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+#footer .compromiso span {
+  text-align: left;
+  margin-left: 15px;
+}
+
+#footer .compromiso img {
+  width: 300px;
+  margin-right: 30px;
 }
 
 #footer .copyright {
@@ -1424,4 +1461,23 @@ section {
 .linkedin {
   text-align: center;
   margin-top: 10px;
+}
+
+@media (max-width: 720px){
+  .footer-display {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto auto;
+  }
+
+  #footer .iniciativa {
+    margin: auto;
+  }
+
+  #footer .compromiso {
+
+    margin: 10px auto;
+  }
+
 }
