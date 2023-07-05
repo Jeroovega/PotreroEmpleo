@@ -1420,3 +1420,8 @@ section {
   font-size: 13px;
   color: #ccc;
 }
+
+.linkedin {
+  text-align: center;
+  margin-top: 10px;
+}
