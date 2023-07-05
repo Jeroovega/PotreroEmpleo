@@ -1471,13 +1471,20 @@ section {
     margin: auto auto;
   }
 
-  #footer .iniciativa {
+  #footer .iniciativa span,img {
     margin: auto;
   }
 
   #footer .compromiso {
-
     margin: 10px auto;
   }
+
+  #footer .compromiso span {
+    margin: auto;
+  }
+  #footer .compromiso img {
+    margin: auto;
+  }
+
 
 }
